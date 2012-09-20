@@ -1,0 +1,36 @@
+How to Install Django 1.4
+(These instructions are for a very guided demo. You can install it as you wish.
+For the official guide, visit:
+https://docs.djangoproject.com/en/1.4/topics/install/
+Just make sure it works at Step V)
+
+== Step I: Install Python ==
+
+== Linux / Mac OS X
+1. Open a terminal/console
+2. type 'python' & press enter
+3. type 'import sys' & press enter
+4. type 'sys.version[:3]' & press enter
+If you get a number equal to or more than '2.5' , proceed to next step
+
+== Windows
+Download Python 2.7 from python.org
+Install
+
+Step II: Download Django
+
+==Linux / MacOS X
+1. Download the latest version of Django from https://www.djangoproject.com/download/
+OR go here: https://www.djangoproject.com/download/1.4.1/tarball/
+2. Move the downloaded file to the desktop
+3. Open a terminal/console and type the following commands:
+
+cd ~/Desktop
+
+
+
+NOTE:
+The workshop will be based on the built-in testing server.
+To deploy, you could try using a full stack installer here:
+
+http://bitnami.org/stack/djangostack

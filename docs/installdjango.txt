@@ -1,10 +1,13 @@
-How to Install Django 1.4
-(These instructions are for a very guided demo. You can install it as you wish.
+23rd September 2012
+
+>>>>>    How to Install Django 1.4    <<<<<
+
+These instructions are for a guided workshop for MozCamp Delhi.
 For the official guide, visit:
 https://docs.djangoproject.com/en/1.4/topics/install/
-Just make sure it works at Step V)
+Just make sure it works at Step V
 
-== Step I: Install Python ==
+========== Step I: Install Python ==========
 
 == Linux / Mac OS X
 1. Open a terminal/console
@@ -17,7 +20,7 @@ If you get a number equal to or more than '2.5' , proceed to next step
 Download Python 2.7 from python.org
 Install
 
-== Step II: Download Django ==
+========== Step II: Download Django ==========
 
 ==Linux / MacOS X
 1. Download the latest version of Django from https://www.djangoproject.com/download/
@@ -31,9 +34,11 @@ cd Django-1.4.1
 python setup.py install
 	#(if this fails, try) -> sudo python setup.py install
 
+== Windows
 
 
-== Step III: Verify Installation ==
+========== Step III: Verify Installation ==========
+
 Open a terminal/console
 
 (For windows:
@@ -49,7 +54,8 @@ import django
 If you do not see any errors, you're ready!
 
 
-=============== Fin ===================
+======================= Fin ===========================
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 NOTE:

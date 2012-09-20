@@ -17,7 +17,7 @@ If you get a number equal to or more than '2.5' , proceed to next step
 Download Python 2.7 from python.org
 Install
 
-Step II: Download Django
+== Step II: Download Django ==
 
 ==Linux / MacOS X
 1. Download the latest version of Django from https://www.djangoproject.com/download/
@@ -26,7 +26,30 @@ OR go here: https://www.djangoproject.com/download/1.4.1/tarball/
 3. Open a terminal/console and type the following commands:
 
 cd ~/Desktop
+tar xvzf Django-1.4.1.tar.gz
+cd Django-1.4.1
+python setup.py install
+	#(if this fails, try) -> sudo python setup.py install
 
+
+
+== Step III: Verify Installation ==
+Open a terminal/console
+
+(For windows:
+Press Windows + R
+enter 'cmd' in text area
+press enter)
+
+Enter the following commands:
+python
+  #at this point, the python shell will open
+import django
+
+If you do not see any errors, you're ready!
+
+
+=============== Fin ===================
 
 
 NOTE:

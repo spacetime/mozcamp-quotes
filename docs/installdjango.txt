@@ -17,8 +17,27 @@ Just make sure it works at Step V
 If you get a number equal to or more than '2.5' , proceed to next step
 
 == Windows
-Download Python 2.7 from python.org
-Install
+1. Download Python 2.7 from http://python.org/download/ according to your architecture (32 bit or 64 bit).
+[#you only need the binary, not the source]
+2. Install Python using the executable you downloaded
+3. Press Start + R. In the run window, type 'python' and press enter. If you get a new window with 
+a >>> prompt and Python 2.7 (or similar) on top, go to next step. If not, reinstall python.
+4. Go to Run and type cmd. Press enter. Enter command 'python'. If you get the following error:
+
+'python' is not recognized as an internal or external command,
+operable program or batch file.
+
+Click on 'Start'. Right Click on 'Computer'. Select 'Properties'.
+On the right side, Click on 'Change settings'.
+Click on 'Advanced' tab. Click on 'Environment Variables...'.
+Look for 'path' in System Variables (not User Variables) and select it.
+Click on 'Edit' below it and append 
+
+;C:\Python27\ 
+
+to it. (If you installed python in another directory, use that)
+
+Retry step 4. If it opens a Python Shell, you're done! Go to Step II!
 
 ========== Step II: Download Django ==========
 
